@@ -19,8 +19,7 @@ The MNIST dataset consists of 70,000 grayscale images of handwritten digits:
 Each image is 28×28 pixels
 
 # Google Colab Notebook
-[Open in Colab](https://colab.research.google.com/drive/1Low-1TnJnF24EBNO_HGgVHiVzCZCcUYi?usp=sharing)
-
+[Open in Colab]([https://colab.research.google.com/drive/12VfG-qre7xw0SBe6cKlk1uX40o710MyC?usp=sharing)
 The notebook includes:
 - Data preprocessing
 - Dataset splitting
@@ -30,7 +29,6 @@ The notebook includes:
 - Accuracy and loss visualization
 - Final comparison between both experiments
 - The dataset is downloaded automatically using:
-python
 torchvision.datasets.MNIST(download=True)
 
 # Libraries Used
@@ -133,7 +131,7 @@ optim.Adam(model_sigmoid.parameters(), lr=0.001)
 # Training Configuration
 
 python
-epochs = 10
+epochs = 7
 batch_size = 64
 learning_rate = 0.001
 
@@ -179,6 +177,9 @@ Using Matplotlib.
 At the end of the notebook, both models are compared based on:
 - Accuracy
 - Final Loss
+  Model	Activation Function 	Test Accuracy	Final Loss
+  MLP Model 1	ReLU	          0.9721      0.094
+  MLP Model 2	Sigmoid          0.9693     0.10185
 
 The comparison helps analyze how activation functions affect neural network performance.
 # Key Concepts Used
