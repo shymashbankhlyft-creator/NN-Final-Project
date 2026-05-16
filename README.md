@@ -19,7 +19,7 @@ The MNIST dataset consists of 70,000 grayscale images of handwritten digits:
 Each image is 28×28 pixels
 
 # Google Colab Notebook
-[Open in Colab]([https://colab.research.google.com/drive/12VfG-qre7xw0SBe6cKlk1uX40o710MyC?usp=sharing)
+[Open in Colab](https://colab.research.google.com/drive/12VfG-qre7xw0SBe6cKlk1uX40o710MyC?usp=sharing)
 The notebook includes:
 - Data preprocessing
 - Dataset splitting
