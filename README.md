@@ -177,8 +177,8 @@ Using Matplotlib.
 At the end of the notebook, both models are compared based on:
 - Accuracy
 - Final Loss
-  Model	Activation Function 	Test Accuracy	Final Loss
-  MLP Model 1	ReLU	          0.9721      0.094
+  Model	Activation Function  	Test Accuracy	Final Loss
+  MLP Model 1	ReLU	         0.9721      0.094
   MLP Model 2	Sigmoid          0.9693     0.10185
 
 The comparison helps analyze how activation functions affect neural network performance.
